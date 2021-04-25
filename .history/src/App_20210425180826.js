@@ -6,10 +6,9 @@ class App extends React.Component{
   render(){
     return(<div>
       <Dataviewer></Dataviewer>
-      <Counter></Counter>
+
+      <Counter></Counter>)
       </div>
-      )
-      
   }
 }
 class Counter extends React.Component{
@@ -45,7 +44,6 @@ class Counter extends React.Component{
 
 class Dataviewer extends React.Component{
   constructor(){
-    super();
     this.state={
       id:1,
       jobTitleName:"Developer",
@@ -58,17 +56,8 @@ class Dataviewer extends React.Component{
   }
   render(){
     return(
-      <div class="box"  >
-         ID: {this.state.id}
-         <br></br>
-         Job title: {this.state.jobTitleName}
-         preferedFullName: {this.state.preferedFullName}
-         <br></br>
-         region: {this.state.region}
-         <br></br>
-         phoneNumber {this.state.phoneNumber}
-         <br></br>
-         emailAddress {this.state.emailAddress}
+      <div>
+          {this.state.id}
       </div>
     )
   }

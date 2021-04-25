@@ -6,6 +6,7 @@ class App extends React.Component{
   render(){
     return(<div>
       <Dataviewer></Dataviewer>
+
       <Counter></Counter>
       </div>
       )
@@ -58,17 +59,10 @@ class Dataviewer extends React.Component{
   }
   render(){
     return(
-      <div class="box"  >
+      <div class="container">
          ID: {this.state.id}
          <br></br>
          Job title: {this.state.jobTitleName}
-         preferedFullName: {this.state.preferedFullName}
-         <br></br>
-         region: {this.state.region}
-         <br></br>
-         phoneNumber {this.state.phoneNumber}
-         <br></br>
-         emailAddress {this.state.emailAddress}
       </div>
     )
   }

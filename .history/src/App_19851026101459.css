@@ -36,15 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.box{
-
-border:#61dafb 10px solid;
-width :40%;
-float:center;
-flex-direction: row;
-float: center;
-padding-left:10px;
-padding-top: 10px;
-
-}

@@ -58,7 +58,7 @@ class Dataviewer extends React.Component{
   }
   render(){
     return(
-      <div class="box"  >
+      <div class="container" style={{marginRight:}} >
          ID: {this.state.id}
          <br></br>
          Job title: {this.state.jobTitleName}
