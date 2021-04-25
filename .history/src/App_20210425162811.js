@@ -16,14 +16,9 @@ class Counter extends React.Component{
       }
    }
   increase=()=>{
-    this.setState({count:this.state.count+1})
 
   }
-  decrease=()=>{
-    this.setState({count:this.state.count-1})
-
-  }
-
+    
   render(){
   return (
     //JSX code w babel by7awlo js 
@@ -33,7 +28,7 @@ class Counter extends React.Component{
         {this.state.count }
       </div>
       <button onClick={this.increase}>Increase</button>
-      <button onClick={this.decrease}>Decrease</button>
+      <button OnClick={this.deacrease}>Decrease</button>
     </div>
     );
   }

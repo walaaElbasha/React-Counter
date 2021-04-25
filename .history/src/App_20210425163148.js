@@ -33,7 +33,7 @@ class Counter extends React.Component{
         {this.state.count }
       </div>
       <button onClick={this.increase}>Increase</button>
-      <button onClick={this.decrease}>Decrease</button>
+      <button OnClick={this.decrease}>Decrease</button>
     </div>
     );
   }
